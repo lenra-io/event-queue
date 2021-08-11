@@ -4,7 +4,7 @@ defmodule EventQueue.MixProject do
   def project do
     [
       app: :event_queue,
-      version: "0.2.0",
+      version: "",
       elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
       deps: deps()

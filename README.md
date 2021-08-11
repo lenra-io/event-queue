@@ -4,18 +4,14 @@
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `event_queue` to your list of dependencies in `mix.exs`:
+The package is curently not available in hexpm. It will be in near future.
+
+In the meantime you can add it to dependancies using git deps
 
 ```elixir
 def deps do
   [
-    {:event_queue, "~> 0.1.0"}
+    {:bouncer, git: "git@github.com:LenraOfficial/event-queue.git", tag: "v"}
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/event_queue](https://hexdocs.pm/event_queue).
-
