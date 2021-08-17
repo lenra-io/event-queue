@@ -11,7 +11,7 @@ In the meantime you can add it to dependancies using git deps
 ```elixir
 def deps do
   [
-    {:event_queue, git: "git@github.com:LenraOfficial/event-queue.git", tag: "v1.0.0"}
+    {:event_queue, git: "git@github.com:LenraOfficial/event-queue.git", tag: "v.y.z"}
   ]
 end
 ```
